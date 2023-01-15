@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 80vh;
+    width: 900px;
+    background-color: aqua;
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+.form_body{
+    
+    text-align: center;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">    
+    <title>Flask Learing</title>
+    <script type="text/javascript" src="{{url_for('static',filename='script/index.js')}}"></script>
+        
+    </script>
+    
+</head>
+
+<body>
+    <div class="container">
+        <div class="form_body">
+            <h2>HTML FORMS</h2>
+
+            <form  action ="/submit" method="post">
+
+            <label for="Science"><b>Science marks</b></label><br>
+            <input type ="text" id="Science" name="science" value="0"><br><br>
+
+            <label for="Maths"><strong>Maths marks</strong></label><br>
+            <input type ="text" id="Maths" name="maths" value="0"><br><br>
+
+            <input type="submit" value="Submit">
+            <p>click to submitt the form</p>
+            </div>
+            
+    </div>
+
+    
+
+    
+
+</form>
+
+
+
+</body>
+</html>
